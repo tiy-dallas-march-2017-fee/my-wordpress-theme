@@ -1,3 +1,36 @@
 #sidebar {
-  background-color: yellow;
+  border-top: solid 1px #444;
+  padding-top: 20px;
+}
+
+.xoxo {
+
+  > li {
+    margin: 10px 0;
+
+    ul {
+      margin-left: 20px;
+    }
+
+    li {
+      line-height: 1.3em;
+    }
+  }
+
+}
+
+
+#search-2 {
+}
+
+#recent-posts-2 {
+}
+
+#archives-2 {
+}
+
+#categories-2 {
+}
+
+#meta-2 {
 }
