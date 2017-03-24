@@ -60,11 +60,30 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-#header {
-  background-color: pink; }
+body {
+  font-family: Helvetica, Verdana, sans-serif; }
 
-nav {
-  background-color: blue; }
+h1 {
+  font-family: Georgia, serif;
+  font-size: 3em; }
+
+p {
+  margin: 2em 0; }
+
+#header {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 40px 0 20px 0; }
+  #header h1 a {
+    color: #000;
+    text-decoration: none; }
+  #header #search {
+    text-align: right; }
+  #header .menu {
+    float: right;
+    margin-top: 15px; }
+    #header .menu li {
+      display: inline-block; }
 
 #footer {
   background-color: red;
@@ -74,6 +93,7 @@ nav {
   background-color: yellow; }
 
 #container {
+  clear: both;
   margin: 0 auto;
   max-width: 960px; }
 

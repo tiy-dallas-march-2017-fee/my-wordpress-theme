@@ -14,11 +14,13 @@ BlankSlate is distributed under the terms of the GNU GPL
 */
 
 @import 'reset';
+@import 'typography';
 @import 'header';
 @import 'footer';
 @import 'sidebar';
 
 #container {
+  clear: both;
   margin: 0 auto;
   max-width: 960px;
 }
