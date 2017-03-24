@@ -86,8 +86,10 @@ p {
       display: inline-block; }
 
 #footer {
-  background-color: red;
-  clear: both; }
+  clear: both;
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 20px 0; }
 
 #sidebar {
   background-color: yellow; }
